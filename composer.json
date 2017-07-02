@@ -11,7 +11,7 @@
 
     "keywords": ["mercadopago","api", "symfony2", "bundle", "tarjeta", "credito", "pago", "payment"],
     "homepage": "https://github.com/fabilocky/MercadopagoBundle",
-    "license": "MIT",
+    "license": "proprietary",
     "require": {
         "php": ">=5.5.9",
         "symfony/symfony": "3.3.*",
@@ -24,6 +24,6 @@
         "symfony/yaml": "~3.3"
     },
     "autoload": {
-        "psr-4": { "Grunch\\MercadopagoBundle\\": "" }
+        "psr-4": { "Fabilocky\\MercadopagoBundle\\": "" }
     }
 }

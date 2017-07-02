@@ -1,11 +1,11 @@
 <?php
 
-namespace Grunch\MercadopagoBundle;
+namespace Fabilocky\MercadopagoBundle;
 
 /**
  * Factory class
  *
- * @author Francisco Calderon <fjcalderon@gmail.com>
+ * @author Fabian Serafini <fdserafini@gmail.com>
  */
 class Factory
 {

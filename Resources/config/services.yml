@@ -1,7 +1,7 @@
 services:
-    grunch_mercadopago:
-        class: Grunch\MercadopagoBundle\Factory
+    fabilocky_mercadopago:
+        class: Fabilocky\MercadopagoBundle\Factory
         arguments:
-            - %grunch_mercadopago.client_id%
-            - %grunch_mercadopago.client_secret%
-            - %grunch_mercadopago.sandbox%
+            - %fabilocky_mercadopago.client_id%
+            - %fabilocky_mercadopago.client_secret%
+            - %fabilocky_mercadopago.sandbox%

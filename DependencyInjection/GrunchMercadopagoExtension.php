@@ -1,6 +1,6 @@
 <?php
 
-namespace Grunch\MercadopagoBundle\DependencyInjection;
+namespace Fabilocky\MercadopagoBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -10,9 +10,9 @@ use Symfony\Component\DependencyInjection\Loader;
 /**
  * This is the class that loads and manages your bundle configuration
  *
- * @author Francisco Calderon <fjcalderon@gmail.com>
+ * @author Fabian Serafini <fdserafini@gmail.com>
  */
-class GrunchMercadopagoExtension extends Extension
+class FabilockyMercadopagoExtension extends Extension
 {
     /**
      * {@inheritdoc}
@@ -22,7 +22,7 @@ class GrunchMercadopagoExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
         foreach ($config as $key => $value) {
-            $container->setParameter('grunch_mercadopago.'.$key, $value);
+            $container->setParameter('fabilocky_mercadopago.'.$key, $value);
         }
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
