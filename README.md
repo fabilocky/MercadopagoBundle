@@ -14,7 +14,7 @@ Este bundle te permite adaptar de manera rápida el api de Mercadopago a tu proy
 
 ``` yml
     "require" : {
-        "fabilocky/mercadopago-bundle": "0.1.*",
+        "fabilocky/mercadopago-bundle": "dev-master",
     }
 ``` 
 
