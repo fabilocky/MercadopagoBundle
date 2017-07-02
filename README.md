@@ -3,10 +3,10 @@ Mecadopago bundle para Symfony2
 
 Este bundle te permite adaptar de manera rápida el api de Mercadopago a tu proyecto en Symfony.
 
-[![Latest Stable Version](https://poser.pugx.org/grunch/mercadopago-bundle/v/stable)](https://packagist.org/packages/grunch/mercadopago-bundle) [![Total Downloads](https://poser.pugx.org/grunch/mercadopago-bundle/downloads)](https://packagist.org/packages/grunch/mercadopago-bundle) [![Latest Unstable Version](https://poser.pugx.org/grunch/mercadopago-bundle/v/unstable)](https://packagist.org/packages/grunch/mercadopago-bundle)
+[![Latest Stable Version](https://poser.pugx.org/fabilocky/mercadopago-bundle/v/stable)](https://packagist.org/packages/fabilocky/mercadopago-bundle) [![Total Downloads](https://poser.pugx.org/fabilocky/mercadopago-bundle/downloads)](https://packagist.org/packages/fabilocky/mercadopago-bundle) [![Latest Unstable Version](https://poser.pugx.org/fabilocky/mercadopago-bundle/v/unstable)](https://packagist.org/packages/fabilocky/mercadopago-bundle)
 
 ## Licencia
-[![License](https://poser.pugx.org/grunch/mercadopago-bundle/license)](https://packagist.org/packages/grunch/mercadopago-bundle)
+[![License](https://poser.pugx.org/fabilocky/mercadopago-bundle/license)](https://packagist.org/packages/fabilocky/mercadopago-bundle)
 
 ## Instalación con composer
 
@@ -14,7 +14,7 @@ Este bundle te permite adaptar de manera rápida el api de Mercadopago a tu proy
 
 ``` yml
     "require" : {
-        "grunch/mercadopago-bundle": "0.1.*",
+        "fabilocky/mercadopago-bundle": "0.1.*",
     }
 ``` 
 
@@ -33,7 +33,7 @@ $ composer update
 ``` yaml
 # app/config/config.yml
 
-grunch_mercadopago:
+fabilocky_mercadopago:
     client_id: xxxxxx
     client_secret: xxxxxxx
     sandbox: true
@@ -44,7 +44,7 @@ grunch_mercadopago:
 ``` php
     $bundles = array(
         // ...
-        new Grunch\MercadopagoBundle\GrunchMercadopagoBundle(),
+        new Fabilocky\MercadopagoBundle\GrunchMercadopagoBundle(),
     );
 ```
 
@@ -77,12 +77,6 @@ class DemoController extends Controller
 ``` bash
 $ php app/console doctrine:schema:update --force
 ```
-## Contribuye
-
-1. fork the project
-2. clone the repo
-3. get the coding standard fixer: `wget http://cs.sensiolabs.org/get/php-cs-fixer.phar`
-4. before the PullRequest you should run the coding standard fixer with `php php-cs-fixer.phar fix -v .`
 
 ## Para más información sobre el API
 [https://developers.mercadopago.com/](https://developers.mercadopago.com/)
