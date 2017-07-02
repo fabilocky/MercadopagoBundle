@@ -14,14 +14,14 @@
     "license": "proprietary",
     "require": {
         "php": ">=5.5.9",
-        "symfony/symfony": "3.3.*",
+        "symfony/symfony": "^3.1",
         "mercadopago/sdk": "0.5.*"
     },
     "require-dev": {
-        "symfony/dependency-injection": "~3.3",
-        "symfony/http-kernel": "~3.3",
-        "symfony/config": "~3.3",
-        "symfony/yaml": "~3.3"
+        "symfony/dependency-injection": "~3.1",
+        "symfony/http-kernel": "~3.1",
+        "symfony/config": "~3.1",
+        "symfony/yaml": "~3.1"
     },
     "autoload": {
         "psr-4": { "Fabilocky\\MercadopagoBundle\\": "" }
