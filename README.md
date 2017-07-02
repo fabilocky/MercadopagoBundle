@@ -44,7 +44,7 @@ fabilocky_mercadopago:
 ``` php
     $bundles = array(
         // ...
-        new Fabilocky\MercadopagoBundle\GrunchMercadopagoBundle(),
+        new Fabilocky\MercadopagoBundle\FabilockyMercadopagoBundle(),
     );
 ```
 
@@ -66,7 +66,7 @@ class DemoController extends Controller
     public function indexAction()
     {
 		// Crea el objeto MP
-		$mp = $this->get('grunch_mercadopago')->getMp();
+		$mp = $this->get('fabilocky_mercadopago')->getMp();
 		// Crea un token
 		$token = $mp->get_access_token();
 	}
