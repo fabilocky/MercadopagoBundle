@@ -1,0 +1,29 @@
+{
+    "name": "fabilocky/mercadopago-bundle",
+    "type": "symfony-bundle",
+    "description": "This is a Symfony2 Bundle helps you use the mercadopago API",
+    "authors": [
+        {
+            "name": "Fabian Serafini",
+            "email": "fdserafini@gmail.com"
+        }
+    ],
+
+    "keywords": ["mercadopago","api", "symfony2", "bundle", "tarjeta", "credito", "pago", "payment"],
+    "homepage": "https://github.com/fabilocky/MercadopagoBundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "3.3.*",
+        "mercadopago/sdk": "0.5.*"
+    },
+    "require-dev": {
+        "symfony/dependency-injection": "~3.3",
+        "symfony/http-kernel": "~3.3",
+        "symfony/config": "~3.3",
+        "symfony/yaml": "~3.3"
+    },
+    "autoload": {
+        "psr-4": { "Grunch\\MercadopagoBundle\\": "" }
+    }
+}
